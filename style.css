@@ -1,0 +1,205 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+pre {
+    display: block;
+    font-family: serif;
+    white-space: pre;
+    margin: 1em 0;
+    text-align: center;
+  }
+.text-block {
+    position: absolute;
+    bottom: 229px;
+    right: -14px;
+    background-color: none;
+    color: #4c1d1d;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: -14px;
+  }
+  .text {
+    position: absolute;
+    bottom: 10;
+    right: 6px;
+    background-color: black;
+    color: white;
+    padding-left: 9px;
+    padding-right: 29px;
+    padding-bottom: -14px;
+  }
+header{
+    position: absolute;
+    width: 100%;
+    height: 11vh;
+    background-color: #0002;
+    z-index: 1;
+    /* padding-bottom: 2%; */
+}
+header img{
+    position: absolute;
+    top: -22%;
+    right: -1px;
+}
+
+header span{
+    position: absolute;
+    font-size: 2.6vw;
+    font-weight: 700;
+    top: 20%;
+    left:30%;
+    font-family: 'Times New Roman', Times, serif;
+}
+aside a {
+    position: absolute;
+    left: 44%;
+    top: 47%;
+    color: #464040;
+    font-style: italic;
+}
+aside {
+    position: absolute;
+    height: 7%;
+    font-size: 1.5vw;
+    font-weight: 700;
+    top: 11%;
+    left: 27%;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 2;
+    color: rgb(43, 39, 39);
+    /* background-color: #0009; */
+    border-radius: 7px;
+}
+aside button{
+    /* position: absolute;
+    top: 50%;
+    left:30%; */
+    /* width: 31%;
+    height: 55%;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    bottom: 7%;
+    position: absolute;
+  */
+    width: 31%;
+    height: 26%;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    bottom: 24%;
+    position: absolute;
+    left: 36%;
+    border: 1px solid;
+}
+#menu{
+    position: absolute;
+    right: 9%;
+    top: 34%;
+    font-size: 1.7vw;
+    
+}
+#menu ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: -4%;
+   
+    text-align-last: left;
+    text-decoration: none;
+}
+#menu ul li {
+    padding: 1px;  
+    padding-left: 30px;
+    /* background-color: yellow; */
+}
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+#menu ul li a:hover, .active a {
+    background-color: rgb(65, 43, 43);
+
+}
+
+
+    #menuItem{
+    background-color: yellow;
+}
+#truckImage{
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    position: absolute;
+}
+
+@media only screen and (max-width: 767px) {
+    /* #aside{
+        font-size: 2vw;
+    } */
+    header span {
+        position: absolute;
+        font-size: 6.6vw;
+        font-weight: 700;
+        top: 27%;
+        left: 1%;
+        font-family: 'Times New Roman', Times, serif;
+        color: grey;
+    }
+    header img {
+        position: absolute;
+        top: -9%;
+        right: -4%;
+        width: 18%;
+    }
+    /* #truckImage {
+        width: 179vw;
+        height: 103%;
+        z-index: 0;
+        position: absolute;
+        left: -27%;
+        top: -1%;
+    } */
+      #truckImage {
+        width: 143vw;
+        height: 107%;
+        z-index: 0;
+        position: absolute;
+        left: -23%;
+        top: 0%;
+    }
+    header {
+        position: absolute;
+        width: 100%;
+        height: 8vh;
+        background-color: #0002;
+        z-index: 1;
+        /* padding-bottom: 2%; */
+    }
+    aside {
+        position: absolute;
+        height: 5%;
+        font-size: 3.5vw;
+        font-weight: 700;
+        top: 11%;
+        left: 3%;
+        font-family: 'Times New Roman', Times, serif;
+        z-index: 2;
+        color: rgb(43, 39, 39);
+        /* background-color: #0009; */
+        border-radius: 7px;
+    }
+  
+    aside a {
+        position: absolute;
+        left: 44%;
+        top: 47%;
+        color: black;
+    }
+    aside a:hover {
+        background-color: cornsilk;
+    }
+*{font-size: 3vw;}
+}
